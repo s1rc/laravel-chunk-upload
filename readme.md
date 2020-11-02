@@ -8,9 +8,9 @@
 
 ## Introduction
 
-> Supports Laravel from 5.2 to 7 (covered by integration tests on all versions).
+> Supports Laravel from 5.2 to 8 (covered by integration tests on all versions).
 
-Easy to use service/library for chunked upload with supporting multiple JS libraries on top of Laravel's file upload with low memory footprint in mind. 
+Easy to use service/library for chunked upload with supporting multiple JS libraries on top of Laravel's file upload with low memory footprint in mind.
 
 Supports feature as [cross domains requests](https://github.com/pionl/laravel-chunk-upload/wiki/cross-domain-requests), automatic clean schedule and easy usage.
 
@@ -38,7 +38,7 @@ Setup consists of 3 steps:
 
 1. Integrate your controller that will handle the file upload. [How to](https://github.com/pionl/laravel-chunk-upload/wiki/controller)
 2. Set a route for the controller. [How to](https://github.com/pionl/laravel-chunk-upload/wiki/routing)
-2. Choose your front-end provider below (we support multiple providers in single controller) 
+2. Choose your front-end provider below (we support multiple providers in single controller)
 
 | Library | Wiki | single & chunk upload | simultaneous uploads | In [example project](https://github.com/pionl/laravel-chunk-upload-example) | Author |
 |---- |----|----|----| ---- | ---- |
@@ -67,6 +67,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute changes. All contri
 
 ## Compatibility
 
+* 8.* (last tested on v8.0)
 * 7.* (last tested on v7.16.1)
 * 6.* (last tested on v6.18.20)
 * 5.8.* (last tested on v5.8.38)
@@ -81,7 +82,7 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for how to contribute changes. All contri
 ## Copyright and License
 
 [laravel-chunk-upload](https://github.com/pionl/laravel-chunk-upload)
-was written by [Martin Kluska](http://kluska.cz) and is released under the 
+was written by [Martin Kluska](http://kluska.cz) and is released under the
 [MIT License](LICENSE.md).
 
 Copyright (c) 2016 and beyond Martin Kluska
